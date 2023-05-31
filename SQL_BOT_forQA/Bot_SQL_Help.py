@@ -7,7 +7,7 @@ from telebot import TeleBot, types
 import random
 
 
-bot = TeleBot(token='5786183512:AAGrH7s_ioBHuQOiInG6ZSdHnkPJyvotbtE', parse_mode='html') # создание бота
+bot = TeleBot(token='I_NEED_YOU_REAL_TOKEN!!!', parse_mode='html') # создание бота
 
 #библиотека с функциями SQL:
 baza = ["Оператор SQL SELECT -\nhttp://2sql.ru/basic/sql-select/", "Оператор SQL INSERT -\nhttp://2sql.ru/basic/sql-insert/", "Оператор SQL UPDATE -\nhttp://2sql.ru/basic/sql-update/","Оператор SQL WHERE -\nhttp://2sql.ru/basic/sql-where/", "Оператор SQL ORDER BY -\nhttp://2sql.ru/basic/sql-order-by/", "Оператор SQL GROUP BY -\nhttp://2sql.ru/basic/sql-group-by/", "Оператор SQL HAVING -\nhttp://2sql.ru/basic/sql-having/", "Оператор SQL DISTINCT -\nhttp://2sql.ru/basic/sql-distinct/", "Операторы SQL AND и OR -\nhttp://2sql.ru/basic/sql-and-or/"]
