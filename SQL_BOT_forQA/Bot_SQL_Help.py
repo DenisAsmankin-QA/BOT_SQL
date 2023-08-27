@@ -88,7 +88,7 @@ def func(message):
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn1 = types.KeyboardButton("/start")
         markup.add(btn1)
-        bot.send_message(message.chat.id,text="Всегда рад!🧡", reply_markup=markup)
+        bot.send_message(message.chat.id,text="Всегда рад🧡", reply_markup=markup)
         bot.send_video(message.chat.id, 'https://gifdb.com/images/file/thank-you-thank-you-498-x-280-gif-gmdo4mccdoejrzns.gif', None, 'Text')
     
     elif (message.text == "Main Page✅"):
