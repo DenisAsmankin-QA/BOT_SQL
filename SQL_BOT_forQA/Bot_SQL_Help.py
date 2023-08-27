@@ -1,13 +1,12 @@
-# подключение библиотек, реализация хостинга Google Colab
+# подключение библиотек, реализация хостинга Google Colab(free, but time limit)
 # В Google colab добавить отдельным первым кодом: !pip install pyTelegramBotAPI
-# для установки необходимо в файл requirements.text добавить строку
-# 'PyTelegramBotApi'
+# для установки необходимо в файл requirements.text добавить строку --> 'PyTelegramBotApi'
 
 from telebot import TeleBot, types
 import random
 
 
-bot = TeleBot(token='I_NEED_YOU_REAL_TOKEN!!!', parse_mode='html') # создание бота
+bot = TeleBot(token='I_NEED_YOU_REAL_TOKEN_BotFather!!!', parse_mode='html') # создание бота
 
 #библиотека с функциями SQL:
 baza = ["Оператор SQL SELECT -\nhttp://2sql.ru/basic/sql-select/", "Оператор SQL INSERT -\nhttp://2sql.ru/basic/sql-insert/", "Оператор SQL UPDATE -\nhttp://2sql.ru/basic/sql-update/","Оператор SQL WHERE -\nhttp://2sql.ru/basic/sql-where/", "Оператор SQL ORDER BY -\nhttp://2sql.ru/basic/sql-order-by/", "Оператор SQL GROUP BY -\nhttp://2sql.ru/basic/sql-group-by/", "Оператор SQL HAVING -\nhttp://2sql.ru/basic/sql-having/", "Оператор SQL DISTINCT -\nhttp://2sql.ru/basic/sql-distinct/", "Операторы SQL AND и OR -\nhttp://2sql.ru/basic/sql-and-or/"]
@@ -113,4 +112,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-#Python✅ можно доработать под новый проект, помогашка)
+#Python✅ можно доработать под новый проект, помогашка, продумать бот с тестовыми картами)
